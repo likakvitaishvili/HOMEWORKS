@@ -15,8 +15,8 @@ public class Generator implements GenerateInter {
         this.parameters = parameters;
         System.out.println(parameters);
         generateAlphabet();
-        //String test =  generateWord((int)parameters.get(3), (int)parameters.get(4));
-        //System.out.println(test);
+        String test =  generateWord((int)parameters.get(3), (int)parameters.get(4));
+        System.out.println(test);
     }
 
     @Override
@@ -27,9 +27,6 @@ public class Generator implements GenerateInter {
         alphabet.put("en", alphabet('a', 'z'));
         alphabet.put("ge", alphabet('ა', 'ჰ'));
         alphabet.put("ru", alphabet('а' , 'я'));
-        // System.out.println(alphabet.get("en"));
-        // System.out.println(alphabet.get("ge"));
-        // System.out.println(alphabet.get("ru"));
     }
 
     public String alphabet(char starter, char ender){

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Planet{
+public class planets{
     String name;
     String star_name;
     Double distance_from_star;
